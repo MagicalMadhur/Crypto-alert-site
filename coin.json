@@ -1,0 +1,62 @@
+{
+    "coins": [
+      {
+        "coin_name": "Bitcoin",
+        "color": "255, 126, 5",
+        "text_color":"#276cdb",
+        "coin_symbol": "Bitcoin"
+        
+      },
+      {
+        "coin_name": "Ethereum",
+        "color": "15, 15, 15",
+        "text_color":"WHITE",
+        "coin_symbol": "Eth"
+        
+      },
+      {
+        "coin_name": "TRON",
+        "color": "247, 0, 0", 
+        "text_color":"BLACK",
+        "coin_symbol": "BTC"
+        
+      },
+      {
+        "coin_name": "Litecoin",
+        "color": "0, 94, 247",
+        "text_color":"WHITE",
+        "coin_symbol": "LTC"
+        
+      },
+      {
+        "coin_name": "DASH",
+        "color": "0, 94, 247",
+        "text_color":"WHITE",
+        "coin_symbol": "DASH"
+        
+      },
+      {
+        "coin_name": "Kusama",
+        "color": "15, 15, 15",
+        "text_color":"WHITE",
+        "coin_symbol": "KSM"
+        
+      },
+      {
+        "coin_name": "Solana",
+        "color": "4, 167, 189",
+        "text_color":"#ae04bd",
+        "coin_symbol": "SOL"
+        
+      },
+      {
+        "coin_name": "Tether",
+        "color": "5, 250, 140",
+        "text_color":"WHITE",
+        "coin_symbol": "Eth"
+        
+      }
+    ]
+    
+
+  }
