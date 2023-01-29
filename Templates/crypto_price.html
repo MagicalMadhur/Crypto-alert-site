@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+      .ccc-tab-content-{{currency}}{
+        pointer-events: none;
+      }
+      coingecko-coin-price-chart-widget a{
+          pointer-events: none;
+
+      }
+
+    </style>
+</head>
+<body><center>
+  <hr>
+    <div class="dropdown">
+        <span>Not your Currency ? Change here -></span>
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="width: 8rem;">
+          Select Currency
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="Select Currency">
+          {% for Currencies in Currencies %}
+          <li><a class="dropdown-item" href="/post/{{coin_symbol}}/{{Currencies}}">{{Currencies}}</a></li>
+          {% endfor %}
+
+
+
+        </ul>
+      </div>
+      <hr>
+    </center>
+    <div >
+    <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
+<coingecko-coin-price-chart-widget  coin-id="{{coin_symbol}}" currency="{{currency}}" locale="en"></coingecko-coin-price-chart-widget>
+    </div>
+<hr>
+<div>
+  <center><span><h3>Most Popular Cryptocurrencies</h3></span></center>
+
+<script src="https://widgets.coingecko.com/coingecko-coin-list-widget.js"></script>
+<coingecko-coin-list-widget style="pointer-events: none;"  coin-ids="bitcoin,ethereum,litecoin,dash" currency="{{currency}}" locale="en"></coingecko-coin-list-widget>
+  </div>
+  <hr>
+
+    <center>
+      <div>
+        <h2>Wanna Grow Your Investment</h2><hr>
+        <strong>Start Alearting Today <br>
+        Click Bell Icon for setting ALEART
+        </strong>
+      </div>
+    </center>
+<hr>
+<p></p>
+<p></p>
+
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+<p></p>
+<p></p>
+
+
+
+</body>
+</html>
